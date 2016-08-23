@@ -1,0 +1,617 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="StartUpPage.aspx.cs" Inherits="MyPortfolio.StartUpPage" %>
+
+<!DOCTYPE html>
+<html class="no-js">
+<head runat="server">
+  <meta charset="utf-8">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>John's Portfolio</title>
+
+  <meta name="keywords" content="">
+
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,100%7CRoboto:400,700,300,100' rel='stylesheet' type='text/css'>
+
+  <!-- Bootstrap and Font Awesome css -->
+  <link href="css/font-awesome.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Theme stylesheet -->
+  <link href="css/style.default.css" rel="stylesheet">
+  <!--//id="theme-stylesheet">
+
+    <!-- Custom stylesheet - for your changes -->
+  <link href="css/custom.css" rel="stylesheet">
+
+  <!-- owl carousel css -->
+
+  <link href="css/owl.carousel.css" rel="stylesheet">
+  <link href="css/owl.theme.css" rel="stylesheet">
+
+  <!-- CSS Animations -->
+  <link href="css/animate.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.png">
+
+  <!-- Mordernizr -->
+  <script src="js/modernizr-2.6.2.min.js"></script>
+
+  <!-- Responsivity for older IE -->
+  <!--[if lt IE 9]>
+    <script src="js/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body data-spy="scroll" data-target="#navigation" data-offset="120">
+
+  <!-- *** NAVBAR ***
+_________________________________________________________ -->
+
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand scrollTo" href="#intro">John's Portfolio</a>
+      </div>
+
+      <div class="navbar-collapse collapse" id="navigation">
+
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#intro">Intro</a>
+          </li>
+          <li><a href="#about">About</a>
+          </li>
+          <li><a href="#services">Learning</a>
+          </li>
+          <li><a href="#references">My Work</a>
+          </li>
+          <li><a href="#testimonials">Hobbies</a>
+          </li>
+
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+
+    </div>
+  </div>
+  <!-- /#navbar -->
+
+  <!-- *** NAVBAR END *** -->
+
+
+  <div id="all">
+
+
+    <!-- *** INTRO IMAGE ***
+_________________________________________________________ -->
+    <div id="intro" class="clearfix">
+      <div class="item">
+        <div class="container">
+          <div class="row">
+            <div class="carousel-caption">
+              <div data-animate="fadeInDown" class="logo">
+                <img src="img/logo-big.png" alt="logo" width="130">
+              </div>
+              <h1 data-animate="fadeInDown">Hello, hola, नमस्ते !</h1>
+              <h2 data-animate="slideInUp">Welcome to my Portfolio</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- *** INTRO IMAGE END *** -->
+
+    <!-- *** ABOUT ***
+_________________________________________________________ -->
+    <div class="section" id="about">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-12">
+            <h2 class="title" data-animate="fadeInDown">About me</h2>
+          </div>
+
+          <div class="col-sm-12">
+
+            <div class="row">
+
+              <div class="col-sm-6 text-left" data-animate="fadeInUp">
+
+                <p>
+                  My Name is John Mutabazi, most call me Bazi. I am young IT professional with <strong>BIG</strong> dreams to become the best in my field. 
+                                  One of my favorite authors, Steven Covey in his book said,
+                </p>
+
+                <blockquote class="blockquote-reverse">
+                  "It's about connecting again with your own uniqueness and then defining the personal, moral, 
+                                  and ethical guidelines within which you can most happily express and fulfill yourself. 
+                                  Begin with the End in Mind means to begin each day, task, or project with a clear vision of your desired direction and destination, 
+                                  and then continue by flexing your proactive muscles to make things happen".
+                                  <footer>Steven Covey</footer>
+                </blockquote>
+
+                <p>
+                  In my journey I have been frustrated, done alot of debugging, seen lots of annoying squiggly red marks in my code, seen the compiler yell at me with errors, had 
+                                   run time errors thrown at me, and done lots of stack overflow references. However, i've also seen success, where my code builds, compiles, and runs smoothly. 
+                                  <i class="fa fa-smile-o"></i>
+                </p>
+
+                <p>Lets Code and Make an Impact! <i class="fa fa-smile-o"></i></p>
+
+              </div>
+
+              <div class="col-sm-6" data-animate="fadeInUp">
+
+                <div class="skill-item">
+                  <div class="progress-title">
+                    C# - ASP.NET
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-skill2" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                      <span class="sr-only">90</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="progress-title">
+                    Java
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-skill2" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                      <span class="sr-only">90</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="progress-title">
+                    Object Oriented Programming, Software Design, Software LifeCycle
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-skill2" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                      <span class="sr-only">90</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="progress-title">
+                    RDBMS - <em>MSSQL, Oracle, Sybase</em>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-skill2" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                      <span class="sr-only">70</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="progress-title">
+                    Scripting - <em>Javascript, Jquery, Angular</em>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-skill2" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                      <span class="sr-only">40</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="progress-title">
+                    Linux - ksh
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-skill2" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                      <span class="sr-only">50</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="progress-title">
+                    Source Control - <em>Git, SVN </em>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-skill2" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                      <span class="sr-only">50</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="progress-title">
+                    HTML - CSS
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-skill3" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                      <span class="sr-only">80</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="progress-title">
+                    Agile Methadologies
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-skill4" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                      <span class="sr-only">90</span>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 mt-big" data-animate="bounceIn">
+            <img src="img/bazi1.jpg" class="image img-circle img-responsive" alt="This is me - John's Portfolio">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /#about -->
+
+    <!-- *** ABOUT END *** -->
+
+    <!-- *** SERVICES ***
+_________________________________________________________ -->
+    <div class="section text-gradient" id="services">
+      <div class="container">
+        <div class="col-md-12">
+          <h2 class="title" data-animate="fadeInDown">From Me To You</h2>
+
+          <div class="row services">
+
+            <div class="col-md-6" data-animate="fadeInUp">
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+              <h3 class="heading">My Favorite Blogs</h3>
+
+              <a href="http://odetocode.com/" target="_blank"><span class="fa-inverse">Scot Allen's Blog</span></a>
+              <br />
+              <a href="http://weblogs.asp.net/jongalloway/" target="_blank"><span class="fa-inverse">John Galloway's Blog</span></a>
+              <br />
+              <a href="http://weblogs.asp.net/jongalloway/" target="_blank"><span class="fa-inverse">Christopher Harrison's Blog</span></a>
+              <br />
+              <a href="http://jameschambers.com/" target="_blank"><span class="fa-inverse">James Chambers's Blog</span></a>
+            </div>
+
+            <div class="col-md-6" data-animate="fadeInUp">
+              <div class="icon">
+                <i class="fa fa-html5"></i>
+              </div>
+              <h3 class="heading">My Learning One-Stop Shop</h3>
+              <a href="http://www.asp.net/" target="_blank"><span class="fa-inverse">ASP.NET</span></a>
+              <br />
+              <a href="https://mva.microsoft.com/" target="_blank"><span class="fa-inverse">Microsoft Virtual Academy</span></a>
+              <br />
+              <a href="https://msdn.microsoft.com/en-us/vstudio/hh341490" target="_blank"><span class="fa-inverse">Visual C# Resources</span></a>
+              <br />
+              <a href="https://www.pluralsight.com/" target="_blank"><span class="fa-inverse">Plural Sight</span></a>
+              <br />
+            </div>
+
+          </div>
+
+          <hr>
+        </div>
+        <!-- /.12 -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.section -->
+
+    <!-- *** SERVICES END *** -->
+
+
+
+
+    <!-- *** REFERENCES IMAGE ***
+_________________________________________________________ -->
+    <div class="section" id="references">
+      <div class="container">
+        <div class="col-sm-12">
+
+          <div class="mb20">
+            <h2 class="title" data-animate="fadeInUp">My work</h2>
+
+            <p class="lead" data-animate="fadeInUp">I have worked on several of personal projects and group projects. Below are a few that am publishing</p>
+          </div>
+
+          
+
+          <div id="detail">
+
+            <span class="close">&times;</span>
+
+            <div id="detail-slider"></div>
+
+            <div class="text-center">
+              <h1 id="detail-title">&nbsp;</h1>
+            </div>
+
+            <div id="detail-content"></div>
+
+          </div>
+          <!-- Reference detail -->
+
+          <div id="references-masonry" data-animate="fadeInUp">
+
+            <div class="reference-item" data-category="webdesign">
+              <div class="reference">
+                <a href="http://baziazurepage.azurewebsites.net/">
+                  <img src="img/proj1.jpg" class="img-responsive" alt="" />
+
+                  <div class="overlay">
+                    <h3 class="reference-title">Sporty App</h3>
+                    <p>App Is under Construction</p>
+                  </div>
+                </a>
+
+                <div class="sr-only reference-description" data-images="img/snip1.jpg,img/snip2.jpg,img/snip3.jpg">
+
+                  <p>
+                    Personal Project- My App will give sports fans a fun one stop-shop where there can see results and live data of their favorite teams
+                  </p>
+
+                  <p>
+                    Essentially I would also like to have this as a mobile app. 
+                  </p>
+
+                  <p class="buttons">
+                    <a class="btn btn-primary" href="http://baziazurepage.azurewebsites.net/" target="_blank"><i class="fa fa-globe"></i>Visit website</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="reference-item" data-category="seo">
+              <div class="reference">
+                <a href="http://microloanapp.azurewebsites.net">
+                  <img src="img/microloan.jpg" class="img-responsive" alt="" />
+
+                  <div class="overlay">
+                    <h3 class="reference-title">MicroLoan App</h3>
+                    <p>Entrepreneur & Lender Application</p>
+                  </div>
+                </a>
+
+                <div class="sr-only reference-description" data-images="img/snip4.jpg,img/snip5.jpg,img/snip6.jpg,img/snip7.jpg,img/snip8.jpg">
+
+                  <p>
+                    My first full data driven project that I built. I call this my baby. I love love this project. 
+                  </p>
+
+                  <p>
+                    This project allows entrepreneurs to request loans for specific reasons such as startup companies, etc. Lenders have the ability to approve and deny the loans.
+                  </p>
+
+                  <p class="buttons">
+                    <a class="btn btn-primary" href="http://microloanapp.azurewebsites.net"><i class="fa fa-globe"></i>Visit website</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+
+
+            
+
+            
+
+            
+
+          </div>
+          <!-- /#references-masonry -->
+
+        </div>
+        <!-- /.12 -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.section -->
+
+    <!-- *** REFERENCES END *** -->
+
+    <!-- *** TESTIMONIALS ***
+_________________________________________________________ -->
+
+    <!-- *** REFERENCES IMAGE ***
+_________________________________________________________ -->
+
+    <div class="section" id="testimonials">
+      <div class="container">
+        <div class="col-sm-12">
+
+          <div class="mb20">
+            <h2 class="title" data-animate="fadeInUp">My Hobbies</h2>
+          </div>
+
+
+          <div id="Div5" data-animate="fadeInUp">
+            <div class="col-md-6">
+              <h3 class="title" data-animate="fadeInDown">Photography</h3>
+              <div class="reference-item" data-category="webdesign">
+                <div class="reference">
+
+                  <img src="img/photo 1.jpg" class="img-responsive" alt="" />
+                  <img src="img/photo 3.jpg" class="img-responsive" alt="" />
+                  <img src="img/photo 5.jpg" class="img-responsive" alt="" />
+
+                </div>
+              </div>
+              
+            </div>
+
+            <div class="col-md-6">
+              <h3 class="title" data-animate="fadeInDown">Playing the Keyboard</h3>
+              <p>Fairly new to playing, but loving it so far</p>
+              <video width="400" controls>
+                <source src="videos/My Movie - Small.mov" type="video/mp4">
+              </video>
+            </div>
+
+          </div>
+          <!-- /#references-masonry -->
+
+        </div>
+        <!-- /.12 -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.section -->
+
+
+
+    <!-- *** CONTACT ***
+_________________________________________________________ -->
+
+    <div class="section contact" id="contact" data-animate="bounceIn">
+      <div class="container">
+        <div class="col-md-12">
+
+
+          <h2 class="title">Contact me</h2>
+
+          <div class="row">
+
+            <div class="col-md-8 col-md-offset-2">
+              <form id="contact-form" method="post" action="contact.php">
+
+                <div class="messages">
+                </div>
+
+                <div class="controls">
+
+                  <div class="row">
+                    <div class="col-md-6">
+                      <input type="text" name="name" class="form-control" placeholder="Your firstname *" required="required">
+                    </div>
+                    <div class="col-md-6">
+                      <input type="text" name="surname" class="form-control" placeholder="Your lastname *" required="required">
+                    </div>
+                    <div class="col-md-6">
+                      <input type="text" name="email" class="form-control" placeholder="Your email *" required="required">
+                    </div>
+                    <div class="col-md-6">
+                      <input type="text" name="phone" class="form-control" placeholder="Your phone">
+                    </div>
+                    <div class="col-md-12">
+                      <textarea name="message" class="form-control" placeholder="Message for me *" rows="4" required="required"></textarea>
+                    </div>
+                    <div class="col-md-12 text-center">
+                      <input type="submit" class="btn btn-primary btn-lg" value="Send message">
+                    </div>
+                  </div>
+                </div>
+
+              </form>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- /.12 -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.section -->
+
+    <!-- *** CONTACT END *** -->
+
+    <!-- *** MAP ***
+_________________________________________________________ -->
+
+    <!--<div class="section" id="map">
+
+        </div>
+        <!-- /.section -->
+
+    <!-- *** MAP END *** -->
+
+    <!-- *** FOOTER ***
+_________________________________________________________ -->
+
+    <div class="section" id="footer">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-sm-6">
+          </div>
+          <!-- /.6 -->
+
+          <div class="col-sm-6">
+            <p>&copy; 2016 John Mutabazi. All rights reserved.</p>
+          </div>
+
+
+
+        </div>
+
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.section -->
+
+    <!-- *** FOOTER END *** -->
+
+
+
+  </div>
+  <!-- /#all -->
+
+  <!-- #### JAVASCRIPT FILES ### -->
+
+  <!-- js base -->
+  <script src="js/jquery-1.11.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- for demo purpose -->
+  <script src="js/jquery.cookie.js"></script>
+
+  <!-- waypoints for scroll spy -->
+  <script src="js/waypoints.min.js"></script>
+
+  <!-- maps -->
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+  <script src="js/gmaps.js"></script>
+
+  <!-- masonry layout -->
+  <script src="js/masonry.pkgd.min.js"></script>
+
+  <!-- owl carousel -->
+  <script src="js/owl.carousel.min.js"></script>
+
+
+  <!-- jQuery scroll to -->
+  <script src="js/jquery.scrollTo.min.js"></script>
+
+  <!-- jQuery counter -->
+  <script src="js/jquery.counterup.min.js"></script>
+
+  <!-- jQuery parallax -->
+  <script src="js/jquery.parallax-1.1.3.js"></script>
+
+  <!-- main js file -->
+
+  <script src="js/front.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,4 @@
+C:\Users\John\Documents\Visual Studio 2012\Projects\2016\MyPortfolio\MyPortfolio\bin\MyPortfolio.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\2016\MyPortfolio\MyPortfolio\bin\MyPortfolio.pdb
+C:\Users\John\Documents\Visual Studio 2012\Projects\2016\MyPortfolio\MyPortfolio\obj\Release\MyPortfolio.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\2016\MyPortfolio\MyPortfolio\obj\Release\MyPortfolio.pdb
