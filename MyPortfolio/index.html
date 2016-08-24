@@ -1,8 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="StartUpPage.aspx.cs" Inherits="MyPortfolio.StartUpPage" %>
+﻿
 
 <!DOCTYPE html>
 <html class="no-js">
-<head runat="server">
+<head>
   <meta charset="utf-8">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
@@ -13,6 +13,7 @@
   <meta name="keywords" content="">
 
   <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,100%7CRoboto:400,700,300,100' rel='stylesheet' type='text/css'>
+
 
   <!-- Bootstrap and Font Awesome css -->
   <link href="css/font-awesome.css" rel="stylesheet">
@@ -39,8 +40,10 @@
   <!-- Mordernizr -->
   <script src="js/modernizr-2.6.2.min.js"></script>
 
+  
+
   <!-- Responsivity for older IE -->
-  <!--[if lt IE 9]>
+  <!--[if lt IE 9]>vvffff
     <script src="js/respond.min.js"></script>
 <![endif]-->
 </head>
@@ -59,7 +62,9 @@ _________________________________________________________ -->
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand scrollTo" href="#intro">John's Portfolio</a>
+        <a class="navbar-brand scrollTo" href="#intro">John Mutabazi 
+          <p style="font-size:12px;">Software Developer</p>
+        </a>
       </div>
 
       <div class="navbar-collapse collapse" id="navigation">
@@ -69,9 +74,9 @@ _________________________________________________________ -->
           </li>
           <li><a href="#about">About</a>
           </li>
-          <li><a href="#services">Learning</a>
+          <li><a href="#learning">Learning</a>
           </li>
-          <li><a href="#references">My Work</a>
+          <li><a href="#myPortfolio">My Portfolio</a>
           </li>
           <li><a href="#testimonials">Hobbies</a>
           </li>
@@ -98,10 +103,14 @@ _________________________________________________________ -->
           <div class="row">
             <div class="carousel-caption">
               <div data-animate="fadeInDown" class="logo">
-                <img src="img/logo-big.png" alt="logo" width="130">
               </div>
-              <h1 data-animate="fadeInDown">Hello there!</h1>
-              <h2 data-animate="slideInUp">Welcome to my Portfolio</h2>
+                <h1 data-animate="fadeInDown">Hello there, welcome!</h1>
+                <ul class="bulletList" data-animate="bounceIn">
+                    <li style="display:inline;">OOP (C#, Java)</li>
+                    <li style="display:inline;">ASP.NET</li>
+                    <li style="display:inline;">JavaScript, jQuery</li>
+                    <li style="display:inline;">RDBMS (Sybase,MSSQL,Oracle)</li>
+                </ul>
             </div>
           </div>
         </div>
@@ -147,6 +156,9 @@ _________________________________________________________ -->
 
                 <p>Lets Code and Make an Impact! <i class="fa fa-smile-o"></i></p>
 
+                  <a href="bazi - Resume 2014.pdf" class="btn btn-info" target="_blank" 
+                          onclick="return windowpop(this.href, 600, 600)">See my Resume. </a>
+                  
               </div>
 
               <div class="col-sm-6" data-animate="fadeInUp">
@@ -268,7 +280,7 @@ _________________________________________________________ -->
 
     <!-- *** SERVICES ***
 _________________________________________________________ -->
-    <div class="section text-gradient" id="services">
+    <div class="section text-gradient" id="learning">
       <div class="container">
         <div class="col-md-12">
           <h2 class="title" data-animate="fadeInDown">From Me To You</h2>
@@ -322,7 +334,7 @@ _________________________________________________________ -->
 
     <!-- *** REFERENCES IMAGE ***
 _________________________________________________________ -->
-    <div class="section" id="references">
+    <div class="section" id="myPortfolio">
       <div class="container">
         <div class="col-sm-12">
 
@@ -485,44 +497,24 @@ _________________________________________________________ -->
         <div class="col-md-12">
 
 
-          <h2 class="title">Contact me</h2>
+          <h2 class="title">Talk To Me</h2>
 
           <div class="row">
 
-            <div class="col-md-8 col-md-offset-2">
-              <form id="contact-form" method="post" action="contact.php">
-
-                <div class="messages">
-                </div>
-
-                <div class="controls">
-
-                  <div class="row">
-                    <div class="col-md-6">
-                      <input type="text" name="name" class="form-control" placeholder="Your firstname *" required="required">
-                    </div>
-                    <div class="col-md-6">
-                      <input type="text" name="surname" class="form-control" placeholder="Your lastname *" required="required">
-                    </div>
-                    <div class="col-md-6">
-                      <input type="text" name="email" class="form-control" placeholder="Your email *" required="required">
-                    </div>
-                    <div class="col-md-6">
-                      <input type="text" name="phone" class="form-control" placeholder="Your phone">
-                    </div>
-                    <div class="col-md-12">
-                      <textarea name="message" class="form-control" placeholder="Message for me *" rows="4" required="required"></textarea>
-                    </div>
-                    <div class="col-md-12 text-center">
-                      <input type="submit" class="btn btn-primary btn-lg" value="Send message">
-                    </div>
+              <div class="col-md-2 col-md-offset-2">
+                  <i class="fa fa-envelope aria-hidden=" true"" style="font-size:20px;"> jmutabaz@gmail.com</i>
+                  
+              </div>
+              
+              <div class="row">
+                  <div class="col-md-2 col-md-offset-2">
+                      <a href="https://www.linkedin.com/in/john-mutabazi-67388275" style="font-size:20px;">
+                          <i class="fa fa-linkedin-square aria-hidden=" true""> <br />John Mutabazi</i>
+                      </a>
                   </div>
-                </div>
+              </div>
 
-              </form>
-            </div>
-
-          </div>
+              </div>
 
         </div>
         <!-- /.12 -->
@@ -580,7 +572,7 @@ _________________________________________________________ -->
   <!-- js base -->
   <script src="js/jquery-1.11.0.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-
+    <script src="js/shems.js"></script>
   <!-- for demo purpose -->
   <script src="js/jquery.cookie.js"></script>
 
