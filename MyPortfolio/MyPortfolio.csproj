@@ -110,6 +110,7 @@
     <Content Include="js\modernizr-2.6.2.min.js" />
     <Content Include="js\owl.carousel.min.js" />
     <Content Include="js\respond.min.js" />
+    <Content Include="js\shems.js" />
     <Content Include="js\waypoints.min.js" />
     <Content Include="videos\My Movie - Small.mov" />
     <Content Include="Web.config" />
@@ -134,6 +135,7 @@
     <Content Include="contact.php" />
     <Content Include="readme.md" />
     <Content Include="PotfolioMaster.Master" />
+    <Content Include="bazi - Resume 2014.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

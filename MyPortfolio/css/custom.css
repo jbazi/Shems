@@ -18,10 +18,20 @@
 .modal.in .modal-dialog {
   transform: none; /*translate(0px, 0px);*/
 }
-
-
         
 .bulletList{display:block;}
 .bulletList li{display:inline-block;}
 .bulletList li:after{content:'|'; margin:0 10px;}
 .bulletList li:before{content:''; }
+.bulletList li:last-child:after{content:' ';}
+
+#outsideWrap{
+    width:500px;
+    
+}
+#textWrap{
+    float: left;
+margin: 10px;
+height:auto;
+width:auto;
+}
