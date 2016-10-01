@@ -46,6 +46,53 @@ margin: 10px;
 height:auto;
 width:auto;
 }
+
+
+#footerNav{
+    width: 250px;
+    float:none;
+    margin: 0 0 3px 0;
+    display:inline;
+}
+
+#footerNav li { 
+    display: inline; 
+    margin: 0 0 3px 0;
+    padding:10px 20px;
+}
+
+/* Sweep To Top */
+#footerNav ul>li:hover {
+    background-color:lightgrey;: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.bulletList li{
+    color:white;
+    animation-name:headerSummary;
+    animation-iteration-count:infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes headerSummary {
+    0%   {color: green;}
+    25%  {background-color: blue;}
+    50%  {background-color: green;}
+    100% {background-color: white;}
+}
+
+/* Standard syntax */
+@-webkit-keyframes headerSummary {
+    0%   {color: green;}
+    25%  {background-color: blue;}
+    50%  {background-color: green;}
+    100% {background-color: white;}
+}
+
+
+/*Target mobile screens*/
+
+
 /*
 #footerImage {
     display: inline;
